@@ -19,12 +19,13 @@ cd Consumer-Complaint-Classifier
 ```
 ### 3. Set Up the Virtual Environment
 It is highly recommended to use a virtual environment to manage project dependencies.
-** On Windows: **
+
+On Windows:
 ```buildoutcfg
 python -m venv venv
 .\venv\Scripts\activate
 ```
-** On Mac/Linux: **
+On Mac/Linux:
 ```buildoutcfg
 python3 -m venv venv
 source venv/bin/activate
@@ -56,7 +57,7 @@ Once the model is trained, you can use predict.py to classify a new, unseen comp
 ```buildoutcfg
 python predict.py --test_complaint "Your sample complaint text goes here..."
 ```
-** Example: **
+Example:
 ```buildoutcfg
 python predict.py --test_complaint "I am a victim of Identity Theft & currently have an Experian account that I can view my Experian Credit Report and getting notified when there is activity on my Experian Credit Report. For the past 3 days I've spent a total of approximately 9 hours on the phone with Experian. Every time I call I get transferred repeatedly and then my last transfer and automated message states to press 1 and leave a message and someone would call me. Every time I press 1 I get an automatic message stating than you before I even leave a message and get disconnected. I call Experian again, explain what is happening and the process begins again with the same end result. I was trying to have this issue attended and resolved informally but I give up after 9 hours. There are hard hit inquiries on my Experian Credit Report that are fraud, I didn't authorize, or recall and I respectfully request that Experian remove the hard hit inquiries immediately just like they've done in the past when I was able to speak to a live Experian representative in the United States. The following are the hard hit inquiries : BK OF XXXX XX/XX/XXXX XXXX XXXX XXXX  XX/XX/XXXX XXXX  XXXX XXXX  XX/XX/XXXX XXXX  XX/XX/XXXX XXXX  XXXX XX/XX/XXXX"
 ```
